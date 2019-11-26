@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><TestCase>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://stackoverflow.com/questions/36578794/i-want-to-use-extensions-list-at-the-time-of-save-as-option-in-file-dialog-for]]></target>
+	<value/>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[css=svg.svg-icon.iconInbox]]></target>
+	<value/>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=answers]]></target>
+	<value/>
+</selenese>
+</TestCase>
