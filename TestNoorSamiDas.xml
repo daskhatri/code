@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><TestCase>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://opensource-demo.orangehrmlive.com/index.php/auth/login]]></target>
+	<value/>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=txtUsername]]></target>
+	<value/>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[id=txtUsername]]></target>
+	<value><![CDATA[admin]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[id=txtPassword]]></target>
+	<value><![CDATA[admin123]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=btnLogin]]></target>
+	<value/>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=(.//*[normalize-space(text()) and normalize-space(.)='Listado de licencias y permisos'])[2]/following::img[1]]]></target>
+	<value/>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=employee]]></target>
+	<value/>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[id=employee]]></target>
+	<value><![CDATA[sadfask]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=btnView]]></target>
+	<value/>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=welcome]]></target>
+	<value/>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[link=Cerrar sesión]]></target>
+	<value/>
+</selenese>
+</TestCase>
