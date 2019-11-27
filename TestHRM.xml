@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><TestCase>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://opensource-demo.orangehrmlive.com/]]></target>
+	<value/>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=(.//*[normalize-space(text()) and normalize-space(.)='LOGIN Panel'])[1]/following::span[1]]]></target>
+	<value/>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[id=txtUsername]]></target>
+	<value><![CDATA[admin]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[id=txtPassword]]></target>
+	<value><![CDATA[admin123]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=btnLogin]]></target>
+	<value/>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=(.//*[normalize-space(text()) and normalize-space(.)='Directory'])[1]/following::b[1]]]></target>
+	<value/>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=confirm_password]]></target>
+	<value/>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[id=confirm_password]]></target>
+	<value><![CDATA[admin123]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::input[4]]]></target>
+	<value/>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=welcome]]></target>
+	<value/>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[link=Logout]]></target>
+	<value/>
+</selenese>
+</TestCase>
