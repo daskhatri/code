@@ -1,4 +1,4 @@
-package com.example.tests;
+
 
 import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
@@ -6,7 +6,7 @@ import org.junit.*;
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
 import org.openqa.selenium.*;
-import org.openqa.selenium.firefox.ChromeDriver();
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
 public class TestHRM {
@@ -17,7 +17,7 @@ public class TestHRM {
 
   @Before
   public void setUp() throws Exception {
-    driver = new ChromeDriver()();
+    driver = new ChromeDriver();
     baseUrl = "https://www.katalon.com/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }
